@@ -26,7 +26,7 @@ Sys::Pushd - umo¿liwia tymczasow± zmianê katalogu.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
