@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Sys
 %define	pnam	Pushd
-%include	/usr/lib/rpm/macros.perl
 Summary:	Sys-Pushd perl module
 Summary(pl):	Modu³ perla Sys-Pushd
 Name:		perl-Sys-Pushd
 Version:	0.001
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Sys-Pushd - changes directory temporarily.
 Sys-Pushd - umo¿liwia tymczasow± zmianê katalogu.
 
 %prep
-%setup -q -n Sys-Pushd-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
