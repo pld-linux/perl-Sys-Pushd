@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Sys
 %define	pnam	Pushd
-Summary:	Sys-Pushd perl module
-Summary(pl):	Modu³ perla Sys-Pushd
+Summary:	Sys::Pushd perl module
+Summary(pl):	Modu³ perla Sys::Pushd
 Name:		perl-Sys-Pushd
 Version:	0.001
 Release:	8
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Sys-Pushd - changes directory temporarily.
+Sys::Pushd - changes directory temporarily.
 
 %description -l pl
-Sys-Pushd - umo¿liwia tymczasow± zmianê katalogu.
+Sys::Pushd - umo¿liwia tymczasow± zmianê katalogu.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
