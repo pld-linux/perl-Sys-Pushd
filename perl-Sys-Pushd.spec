@@ -5,7 +5,7 @@ Summary:	Sys::Pushd perl module
 Summary(pl):	Modu³ perla Sys::Pushd
 Name:		perl-Sys-Pushd
 Version:	0.001
-Release:	9
+Release:	10
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
