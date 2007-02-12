@@ -2,7 +2,7 @@
 %define		pdir	Sys
 %define		pnam	Pushd
 Summary:	Sys::Pushd perl module
-Summary(pl):	Modu³ perla Sys::Pushd
+Summary(pl.UTF-8):   ModuÅ‚ perla Sys::Pushd
 Name:		perl-Sys-Pushd
 Version:	0.001
 Release:	10
@@ -19,8 +19,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Sys::Pushd - changes directory temporarily.
 
-%description -l pl
-Sys::Pushd - umo¿liwia tymczasow± zmianê katalogu.
+%description -l pl.UTF-8
+Sys::Pushd - umoÅ¼liwia tymczasowÄ… zmianÄ™ katalogu.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
