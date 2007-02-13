@@ -2,7 +2,7 @@
 %define		pdir	Sys
 %define		pnam	Pushd
 Summary:	Sys::Pushd perl module
-Summary(pl.UTF-8):   Moduł perla Sys::Pushd
+Summary(pl.UTF-8):	Moduł perla Sys::Pushd
 Name:		perl-Sys-Pushd
 Version:	0.001
 Release:	10
