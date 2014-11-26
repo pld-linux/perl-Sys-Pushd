@@ -1,6 +1,6 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Sys
 %define		pnam	Pushd
+%include	/usr/lib/rpm/macros.perl
 Summary:	Sys::Pushd perl module
 Summary(pl.UTF-8):	Moduł perla Sys::Pushd
 Name:		perl-Sys-Pushd
@@ -11,8 +11,9 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	5bb67fb42c03ef9527d61674db59689e
-BuildRequires:	rpm-perlprov >= 4.1-13
+URL:		http://search.cpan.org/dist/Sys-Pushd/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
