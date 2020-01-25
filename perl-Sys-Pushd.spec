@@ -1,6 +1,5 @@
 %define		pdir	Sys
 %define		pnam	Pushd
-%include	/usr/lib/rpm/macros.perl
 Summary:	Sys::Pushd perl module
 Summary(pl.UTF-8):	Moduł perla Sys::Pushd
 Name:		perl-Sys-Pushd
